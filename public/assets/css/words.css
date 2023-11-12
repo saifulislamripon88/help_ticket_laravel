@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/allfonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/allfonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/allfonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/allfonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/allfonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/allfonts/Roboto-Regular.ttf);
+}
+
+body{
+    /* margin: 0;
+    padding: 0; */
+    background-color: #b8c3c3;
+}
+
+
+.sidebar {
+  position: fixed;
+  float: left;
+  width: 20%;
+  height: 100vh;
+  padding: 40px;
+  background-color: #9da1a93d;
+  overflow: hidden;
+}
+.sidebar h4{
+    font-family: Roboto-Medium;
+    color: #c75757;
+}
+
+.c_fluid{
+    padding-left: 0;
+}
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+
+}
+.sidebar li {
+    margin-bottom: 10px;
+}
+.sidebar a {
+    font-family: Roboto-Regular;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.sidebar a:hover {
+    color: #c75757;
+}
+
+.main_content {
+    overflow-y: auto;
+    float: right;
+    width: 80%;
+    padding: 30px 0;
+ 
+}
+
+.main_content h1{
+    font-family: Roboto-Bold;
+    text-align: center;
+    color: #c75757;
+    text-transform: uppercase;
+}
+
+.main_content i{
+    font-size: 40px;
+    color: #c75757;
+    text-align: center;
+    display: block;
+}
+
+.wordsc{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.styled_select{
+    padding: 6px 82px;
+}
+.input_design{
+    padding: 5px 20px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.formc{
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+.formc h4{
+    font-family: Poppins-Medium;
+
+}
+form label{
+    font-family: Roboto-Regular;
+    color: #0073b7;
+}

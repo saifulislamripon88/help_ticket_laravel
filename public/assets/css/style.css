@@ -1,0 +1,300 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/allfonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/allfonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/allfonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/allfonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/allfonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/allfonts/Roboto-Regular.ttf);
+}
+
+
+/* ticket file design */
+
+.navDesign{
+    background-color: rgb(14, 22, 40);
+    min-height: 100vh;
+}
+
+.customBg{
+    background-color: #182234;
+}
+
+.logo{
+    font-family: Roboto-Bold;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.logo span{
+    color: aqua;
+}
+.menu ul li a{
+    font-family: Poppins-Medium;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover{
+    color: #8cfbfb;
+}
+
+.cs_view{
+    text-decoration: none;
+    font-weight: 400;
+    color: #E2E8F0;
+}
+.cs_view:hover{
+    color: #8cfbfb;
+}
+
+.allTicket{
+    margin-top: 20px;
+}
+
+.allTicket h2{
+    font-family: Roboto-Bold;
+    text-transform: capitalize;
+    color: #E2E8F0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.allTicket table{
+    width: 100%;
+}
+
+th{
+    background-color: #182234;
+    color: #E2E8F0;
+    padding: 8px 5px;
+    text-align: center;
+}
+
+table,th,td{
+    border: 1px solid gray;
+}
+
+td{
+    padding: 4px 7px 4px 10px;
+    color: #c8c9cb;
+}
+
+
+.text-muted{
+    color: #ffffff !important;
+}
+
+
+/* storeticket page design */
+.customForm{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    margin-top: 40px;
+    background-color: #ffffff;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    /* rgba(6, 20, 37, 0.08) 0px 2px 10px 2px, rgba(6, 20, 37, 0.08) 0px 2px 10px 2px */
+    border-radius: 2px;
+}
+.customForm h2{
+    font-family: Roboto-Bold;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 28px;
+}
+
+.c_formControl{
+    border: 1px solid #d1d5e3;
+    border-radius: 0;
+}
+
+.c_formControl:focus{
+    color: #212529;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+
+.customForm label{
+    font-family: Roboto-Regular;
+    color: #212529;
+    font-size: 16px;
+}
+
+
+
+
+/* login page design */
+.loginForm{
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    margin-top: 60px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 2px;
+}
+.loginForm h3{
+    font-family: Roboto-Bold;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 28px;
+}
+
+.c_login_control{
+    border: 1px solid #d1d5e3;
+    border-radius: 4px;
+}
+
+.c_login_control:focus{
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+
+.loginForm label{
+    font-family: Roboto-Regular;
+    color: #212529;
+    font-size: 16px;
+}
+
+
+.custom_reg_btn{
+    width: 40%;
+
+}
+
+
+/* registration form design */
+.registrationForm{
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    margin-top: 60px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 2px;
+}
+
+
+.registrationForm h3{
+    font-family: Roboto-Bold;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 28px;
+}
+
+.c_registration_control{
+    border: 1px solid #d1d5e3;
+    border-radius: 4px;
+}
+
+.c_registration_control:focus{
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+
+.registrationForm label{
+    font-family: Roboto-Regular;
+    color: #212529;
+    font-size: 16px;
+}
+
+
+/*  */
+
+
+
+/* details page design  */
+
+.detailsTicket{
+    background-color: rgb(14, 22, 40);
+    min-height: 100vh;
+    padding: 30px 0;
+
+}
+
+.detailsTicket h2{
+    font-family: Roboto-Bold;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 28px;
+    color: #d1d5e3;
+}
+.detailsCard{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #182234;
+    color: #ffffff;
+}
+
+.attachment img, embed{
+    width: 160px;
+    height: 160px;
+
+}
+
+.text_d{
+    text-align: center;
+}
+.pdf_d{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.pdf_d:hover{
+    color: aqua;
+}
+
+.desc_link{
+    text-decoration: none;
+    color: #8cfbfb;
+}
+
+
+/* contents page design  */
+.contents{
+    background-color: rgb(14, 22, 40);
+    min-height: 100vh;
+    padding: 30px 0;
+}
+.detailsContent{
+    padding: 20px;
+    background-color: #182234;
+}
+.detailsContent p{
+    font-family: Roboto-Regular;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+.detailsContent strong{
+    color: #8cfbfb;
+}
+
+.contentAttachment{
+    width: 350px;
+    height: 350px;
+
+}
